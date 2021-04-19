@@ -15,7 +15,7 @@ class ModificarTablaUsuarios extends Migration
     {
         //
         Schema::table('users', function(Blueprint $table){
-            $table->boolean('administrador');
+        
         });
     }
 
