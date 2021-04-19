@@ -33,7 +33,7 @@ class CrearTablaPermisos extends Migration
                 'borrar' => true,
                 'consultar' => true,
                 'modificar'=>true,
-                'user_id'=> 24
+                'user_id'=> 1
             )
         );
     }
