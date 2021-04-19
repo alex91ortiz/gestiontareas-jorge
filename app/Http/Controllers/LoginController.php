@@ -35,7 +35,7 @@ class LoginController extends PrincipalController
 
     public function salir()
     {
-        //auth()->user()->tokens()->delete();
+        //a uth()->user()->tokens()->delete();
         return $this->enviarRespuesta(null,"tokens removidos");
     }
 
